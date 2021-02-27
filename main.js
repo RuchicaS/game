@@ -5,6 +5,6 @@ function hitUrl(url) {
        document.getElementById("result").innerHTML = this.responseText;
       }
     };
-    xhttp.open("GET", "http://game-jesu.us-e2.cloudhub.io/" + url, true);
+    xhttp.open("GET", "https://game-jesu.us-e2.cloudhub.io/" + url, true);
     xhttp.send();
 }
